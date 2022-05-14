@@ -1,16 +1,16 @@
-body{
-    height: 100vh;
-    background: rgb(9,9,121);
-background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 62%);
+body {
+    background: rgb(9, 9, 121);
+    background: linear-gradient(90deg, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 0%);
 }
 
-.flex{
+.flex {
     display: flex;
     align-content: center;
     justify-content: center;
 }
 
-.container{
+.container {
     display: flex;
     max-width: 1200px;
+    margin: 0 auto;
 }
