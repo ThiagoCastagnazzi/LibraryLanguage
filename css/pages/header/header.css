@@ -7,13 +7,16 @@
     margin: 0 auto;
     padding: 10px 0;
     color: white;
-    font-family: 'Roboto', sans-serif;
+}
+.header-top{
+    border-bottom: 1px solid white;
 }
 
 .header-left {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .header-title {

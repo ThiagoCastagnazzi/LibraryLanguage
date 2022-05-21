@@ -1,0 +1,43 @@
+.main-top{
+    display: grid;
+    padding-top: 30px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+.main-top-title{
+    font-size: 4rem;
+}
+
+.main-top-descrip{
+    font-size: 1.5rem;
+}
+
+.main-section{
+    padding-top: 100px;
+}
+
+.main-section-descrip{
+    font-size: 1.5rem;
+}
+
+.main-section-p{
+    padding-top: 40px;
+    font-size: 1.5rem;
+}
+
+.main-section-list{
+    display: flex;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+.main-section-list-item strong{
+    font-size: 1.3rem;
+}
+
+.main-section-list-item p{
+    padding-top: 10px;
+    font-size: 1.2rem;
+}

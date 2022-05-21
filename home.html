@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pages/home/home.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -13,12 +14,16 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header-top">
+        <div class="header">
         <div class="header-left">
             <h1 class="header-title">
-                Biblioteca de Linguagens
+                <a href="./home.html">
+                    Biblioteca de Linguagens
+                </a>
             </h1>
         </div>
+    
         <nav class="navbar">
             <ul class="menu">
                 <li class="menu-item">
@@ -34,9 +39,33 @@
                     </a></li>
             </ul>
         </nav>
+    </div>
     </header>
     <main class="main-content container">
-        <h1>Front End, a camada visual das aplicações web.</h1>
+        <article class="main-front">
+        <div class="main-language-descrip">
+        <h1 class="main-front-title">Front End,<br> a camada visual <br> das aplicações web.</h1>
+        <p  class="main-front-descrip">
+            O desenvolvimento front-end da web é o desenvolvimento da interface gráfica do usuário de um site, por meio do uso de HTML, CSS e JavaScript, para que os usuários possam visualizar e interagir com aquele site.
+        </p>
+    </div>
+
+    <ul class="main-menu">
+        <li class="main-menu-item">
+            <h2 class="main-menu-title">HTML</h2>
+            <p class="main-menu-descrip">HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. </p>
+        </li>
+
+        <li class="main-menu-item">
+            <h2 class="main-menu-title">CSS</h2>
+            <p class="main-menu-descrip">Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web. O código CSS pode ser aplicado diretamente nas tags ou ficar contido dentro das tags. </p>
+        </li>
+        <li class="main-menu-item">
+            <h2 class="main-menu-title">JavaScript</h2>
+            <p class="main-menu-descrip">JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. O JavaScript é uma das três principais. </p>
+        </li>
+    </ul>
+        </article>
     </main>
 </body>
 
