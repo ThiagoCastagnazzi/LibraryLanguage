@@ -6,6 +6,10 @@
     text-align: center;
 }
 
+.main-content{
+    padding: 10px;
+}
+
 .main-top-title{
     font-size: 4rem;
 }
