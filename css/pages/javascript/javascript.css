@@ -47,3 +47,25 @@
     padding-top: 10px;
     font-size: 1.2rem;
 }
+
+@media (max-width: 768px) {
+    .main-section{
+        padding-top: 50px;
+    }
+    
+    .main-section-descrip{
+        font-size: 1.2rem;
+    }
+
+    .main-section-p{
+        font-size: 1.2rem;
+    }
+
+    .main-section-list-item strong{
+        font-size: 1.1rem;
+    }
+    
+    .main-section-list-item p{
+        font-size: 1rem;
+    }
+}

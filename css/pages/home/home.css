@@ -64,3 +64,35 @@
 .main-menu-descrip a:hover::after {
     width: 100%;
 }
+
+@media (max-width: 768px) {
+    .main-content{
+        padding: 50px 10px;
+    }
+    .main-front-title {
+        font-size: 3.5rem;
+    }
+
+    .main-front-descrip{
+        font-size: 1.3rem;
+    }
+
+    .main-menu{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .main-menu-item{
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 530px) {
+    .main-front-title {
+        font-size: 2rem;
+    }
+
+    .main-front-descrip{
+        font-size: 1rem;
+    }
+}
