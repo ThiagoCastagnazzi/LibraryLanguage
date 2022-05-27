@@ -118,10 +118,12 @@
     }
     .main-front-title {
         font-size: 3.5rem;
+        text-align: center;
     }
 
     .main-front-descrip{
         font-size: 1.3rem;
+        text-align: center;
     }
 
     .card-container {
