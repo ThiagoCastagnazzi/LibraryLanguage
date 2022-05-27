@@ -126,6 +126,10 @@
         text-align: center;
     }
 
+    .main-language-descrip{
+    padding: 0;
+    }
+
     .card-container {
         margin: 0 auto;
         flex-direction: column;
